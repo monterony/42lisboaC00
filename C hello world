@@ -324,3 +324,35 @@ sh: O: command not found
 sh-3.2$ pwd
 /Users/jde-arau/C
 sh-3.2$ 
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+int main ()
+{
+   //Fazer um comentario
+   /*
+
+      abrir / barra. * e fechar * barra e tbm
+      uma forma de fazer
+      comentario dentro do
+      codigo    a difreneca entre barra barra
+      e barras com * e que na primeira opcao eu
+      escrevo comentarios curtos apenas
+      em uma linha e a segunda oocau eu
+      escrevo comentarios miores em mais linhas
+
+    */
+    printf (" 42 lisboa.\n");
+
+    return 0;
+
+}
+
