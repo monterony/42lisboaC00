@@ -337,7 +337,8 @@ sh-3.2$
 #include <stdio.h>
 int main ()
 {
-   //Fazer um comentario
+   //Fazer um comentario.         _.       a funcao \n serve para informar ao compilador que deve pular uma linha onde  \n for colocado. segue no proximo exemplo.
+   
    /*
 
       abrir / barra. * e fechar * barra e tbm
@@ -353,6 +354,48 @@ int main ()
     printf (" 42 lisboa.\n");
 
     return 0;
+    
+    
+    
+    
+    
+    EXEMPLO DO \N
+    
+    #include <stdio.h>
+int main ()
+{
+   //Fazer um comentario
+
+    /*
+
+      abrir / barra. * e fechar * barra e tbm
+      uma forma de fazer
+      comentario dentro do
+      codigo    a difreneca entre barra barra
+      e barras com * e que na primeira opcao eu
+      escrevo comentarios curtos apenas
+      em uma linha e a segunda oocau eu
+      escrevo comentarios miores em mais linhas
+
+    */
+    printf (" 42 \n lisboa.\n");
+
+    return 0;
+
+}
+    RESULTADO DO EXEMPLO
+    
+    jde-arau@c1r1s6 ~ % vi test.c
+jde-arau@c1r1s6 ~ % gcc test.c
+jde-arau@c1r1s6 ~ % ./a.out
+ 42 lisboa.
+jde-arau@c1r1s6 ~ % vi test.c
+jde-arau@c1r1s6 ~ % gcc test.c
+jde-arau@c1r1s6 ~ % ./a.out
+ 42
+ lisboa.
+jde-arau@c1r1s6 ~ %
+    
 
 }
 
