@@ -1,0 +1,326 @@
+sh-3.2$ ls -l
+total 24
+-rw-r--r--   1 jde-arau  2022_lisboa     0 Jan 11 13:38 -l
+d-wx-w----   3 jde-arau  2022_lisboa   102 Jan 10 10:04 Applications
+drwxr-xr-x   5 jde-arau  2022_lisboa   170 Jan 13 04:23 Desktop
+drwxr-xr-x   2 jde-arau  2022_lisboa    68 Jan 10 09:49 Documents
+drwx------   5 jde-arau  2022_lisboa   170 Jan 11 23:14 Downloads
+drwxr-xr-x@ 38 jde-arau  2022_lisboa  1292 Jan 13 10:54 Library
+drwxr-xr-x   3 jde-arau  2022_lisboa   102 Jan 11 09:12 Movies
+-rw-r--r--   1 jde-arau  2022_lisboa    21 Jan 13 00:27 ft_magic
+lrwxr-xr-x   1 jde-arau  2022_lisboa    18 Jan 10 09:49 goinfre -> /goinfre/jde-arau/
+-rw-r--r--   1 jde-arau  2022_lisboa     0 Jan 11 13:36 id_rsa_pub
+-rw-r--r--   1 jde-arau  2022_lisboa     0 Jan 11 13:38 jde-arau@c1r4s3.42lisboa.com
+drwxr-xr-x   3 jde-arau  2022_lisboa   102 Jan 10 12:27 neto
+drwxr-xr-x  13 jde-arau  2022_lisboa   442 Jan 13 04:36 shell00
+-rw-r--r--   1 jde-arau  2022_lisboa     8 Jan 13 00:26 test
+sh-3.2$ mkdir C
+sh-3.2$ ls -l
+total 24
+-rw-r--r--   1 jde-arau  2022_lisboa     0 Jan 11 13:38 -l
+d-wx-w----   3 jde-arau  2022_lisboa   102 Jan 10 10:04 Applications
+drwxr-xr-x   2 jde-arau  2022_lisboa    68 Jan 13 11:24 C
+drwxr-xr-x   5 jde-arau  2022_lisboa   170 Jan 13 04:23 Desktop
+drwxr-xr-x   2 jde-arau  2022_lisboa    68 Jan 10 09:49 Documents
+drwx------   5 jde-arau  2022_lisboa   170 Jan 11 23:14 Downloads
+drwxr-xr-x@ 38 jde-arau  2022_lisboa  1292 Jan 13 10:54 Library
+drwxr-xr-x   3 jde-arau  2022_lisboa   102 Jan 11 09:12 Movies
+-rw-r--r--   1 jde-arau  2022_lisboa    21 Jan 13 00:27 ft_magic
+lrwxr-xr-x   1 jde-arau  2022_lisboa    18 Jan 10 09:49 goinfre -> /goinfre/jde-arau/
+-rw-r--r--   1 jde-arau  2022_lisboa     0 Jan 11 13:36 id_rsa_pub
+-rw-r--r--   1 jde-arau  2022_lisboa     0 Jan 11 13:38 jde-arau@c1r4s3.42lisboa.com
+drwxr-xr-x   3 jde-arau  2022_lisboa   102 Jan 10 12:27 neto
+drwxr-xr-x  13 jde-arau  2022_lisboa   442 Jan 13 04:36 shell00
+-rw-r--r--   1 jde-arau  2022_lisboa     8 Jan 13 00:26 test
+sh-3.2$ cd C
+sh-3.2$ ls -l
+sh-3.2$ pwd
+/Users/jde-arau/C
+sh-3.2$ pwd
+/Users/jde-arau/C
+sh-3.2$
+sh-3.2$ pwd
+/Users/jde-arau/C
+sh-3.2$ touch testc1
+sh-3.2$ ls -l
+total 0
+-rw-r--r--  1 jde-arau  2022_lisboa  0 Jan 13 11:42 testc1
+sh-3.2$ pwd
+/Users/jde-arau/C
+sh-3.2$
+sh-3.2$ owd
+sh: owd: command not found
+sh-3.2$ pwd
+/Users/jde-arau/C
+sh-3.2$ cd C
+sh: cd: C: No such file or directory
+sh-3.2$ ls -la
+total 0
+drwxr-xr-x   3 jde-arau  2022_lisboa   102 Jan 13 11:42 .
+drwxr-xr-x  31 jde-arau  2022_lisboa  1122 Jan 13 11:24 ..
+-rw-r--r--   1 jde-arau  2022_lisboa     0 Jan 13 11:42 testc1
+sh-3.2$ pwd
+/Users/jde-arau/C
+sh-3.2$ cd C
+sh: cd: C: No such file or directory
+sh-3.2$ cd testc1
+sh: cd: testc1: Not a directory
+sh-3.2$ rm testc1
+sh-3.2$ ls -l
+sh-3.2$ pwd
+/Users/jde-arau/C
+sh-3.2$ ls -la
+total 0
+drwxr-xr-x   2 jde-arau  2022_lisboa    68 Jan 13 11:43 .
+drwxr-xr-x  31 jde-arau  2022_lisboa  1122 Jan 13 11:24 ..
+sh-3.2$
+int main()
+^@^A^@^@^@^C^@^@^@^@^Ha^B*^@^@^@^P^@^@^@^@^@^@^@^@^@^@^@(^@^@<80>^X^@^@^@°?^@^@^@^@^@^@^@^@^@^@^@^@^@^@^L^@^@^@8^@^@^@^X^@^@^@^B^@^@^@^Ad^A^E^@^#include <studio.h>
+#include <stdio.h>
+#include <stdio.h>
+#include <stdio.h>
+#include <stdio.h>
+#include <stdio.h>
+#include <stdio.h>
+sh-3.2$ pwd
+/Users/jde-arau/C
+sh-3.2$ vi main.c
+sh-3.2$ cat main.c
+int main()
+{
+}
+sh-3.2$ gcc main.c
+lssh-3.2$ ls -la
+total 48
+drwxr-xr-x   4 jde-arau  2022_lisboa    136 Jan 13 11:52 .
+drwxr-xr-x  31 jde-arau  2022_lisboa   1122 Jan 13 11:47 ..
+-rwxr-xr-x   1 jde-arau  2022_lisboa  16536 Jan 13 11:52 a.out
+-rw-r--r--   1 jde-arau  2022_lisboa     16 Jan 13 11:47 main.c
+sh-3.2$ vi ./a.out
+sh-3.2$ ./a.out
+sh-3.2$ cat a.out
+������ H__PAGEZERO�__TEXT@@__text__TEXT��?�__unwind_info__TEXT�?H�?H__LINKEDIT@@@�"�0@08@h@0
+                                                                                            P
+                                                                                              /usr/lib/dyld}��R��;ͷyϩg�2
+
+a*(��?
+      8d/usr/lib/libSystem.B.dylib&0)8@UH��1�]��?44�?4
+                                                      __mh_execute_header!main%���? __mh_execute_header_maindyld_stub_binder
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+main.c:1:10: fatal error: 'studio.h' file not found
+#include <studio.h>
+         ^~~~~~~~~~
+1 error generated.
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+sh-3.2$ ./a.out
+hello wopwd
+/Users/jde-arau/C
+sh-3.2$ vi main.c
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+main.c:5:23: error: expected ';' after expression
+        printf("hello world")
+                             ^
+                             ;
+1 error generated.
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+sh-3.2$ ./a.out
+hello wovi main.c
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+sh-3.2$ ./a.out
+hello worldsh-3.2$
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+
+
+
+#include <stdio.h>
+
+
+
+
+
+
+
+
+
+Session Contents Restored
+
+Last login: Thu Jan 13 13:17:30 on console
+jde-arau@c1r1s6 ~ % pwd
+#include <stdio.h>
+/Users/jde-arau
+jde-arau@c1r1s6 ~ % ls -l
+total 24
+-rw-r--r--   1 jde-arau  2022_lisboa     0 Jan 11 13:38 -l
+d-wx-w----   3 jde-arau  2022_lisboa   102 Jan 10 10:04 Applications
+#include <stdio.h>
+drwxr-xr-x   4 jde-arau  2022_lisboa   136 Jan 13 12:13 C
+drwxr-xr-x   5 jde-arau  2022_lisboa   170 Jan 13 04:23 Desktop
+drwxr-xr-x   2 jde-arau  2022_lisboa    68 Jan 10 09:49 Documents
+drwx------   6 jde-arau  2022_lisboa   204 Jan 13 11:31 Downloads
+drwxr-xr-x@ 39 jde-arau  2022_lisboa  1326 Jan 13 11:33 Library
+drwxr-xr-x   3 jde-arau  2022_lisboa   102 Jan 11 09:12 Movies
+-rw-r--r--   1 jde-arau  2022_lisboa    21 Jan 13 00:27 ft_magic
+#include <stdio.h>
+lrwxr-xr-x   1 jde-arau  2022_lisboa    18 Jan 10 09:49 goinfre -> /goinfre/jde-arau/
+-rw-r--r--   1 jde-arau  2022_lisboa     0 Jan 11 13:36 id_rsa_pub
+-rw-r--r--   1 jde-arau  2022_lisboa     0 Jan 11 13:38 jde-arau@c1r4s3.42lisboa.com
+drwxr-xr-x   3 jde-arau  2022_lisboa   102 Jan 10 12:27 neto
+drwxr-xr-x  13 jde-arau  2022_lisboa   442 Jan 13 04:36 shell00
+#include <stdio.h>
+-rw-r--r--   1 jde-arau  2022_lisboa     8 Jan 13 00:26 test
+jde-arau@c1r1s6 ~ % cd shell00
+jde-arau@c1r1s6 shell00 % ls -l
+total 0
+drwxr-xr-x  3 jde-arau  2022_lisboa  102 Jan 10 14:17 ex00
+#include <stdio.h>
+drwxr-xr-x  6 jde-arau  2022_lisboa  204 Jan 11 12:57 ex01
+drwxr-xr-x  9 jde-arau  2022_lisboa  306 Jan 13 04:16 ex02
+drwxr-xr-x  5 jde-arau  2022_lisboa  170 Jan 13 05:32 ex03
+drwxr-xr-x  3 jde-arau  2022_lisboa  102 Jan 11 14:48 ex04
+drwxr-xr-x  5 jde-arau  2022_lisboa  170 Jan 11 18:55 ex05
+drwxr-xr-x  7 jde-arau  2022_lisboa  238 Jan 12 15:48 ex06
+drwxr-xr-x  7 jde-arau  2022_lisboa  238 Jan 12 22:05 ex07
+drwxr-xr-x  5 jde-arau  2022_lisboa  170 Jan 13 00:36 ex08
+drwxr-xr-x  6 jde-arau  2022_lisboa  204 Jan 13 00:29 ex09
+jde-arau@c1r1s6 shell00 % sh
+sh-3.2$ cd ..
+sh-3.2$ pwd
+/Users/jde-arau
+sh-3.2$ ls -l
+total 24
+-rw-r--r--   1 jde-arau  2022_lisboa     0 Jan 11 13:38 -l
+d-wx-w----   3 jde-arau  2022_lisboa   102 Jan 10 10:04 Applications
+#include <stdio.h>
+drwxr-xr-x   4 jde-arau  2022_lisboa   136 Jan 13 12:13 C
+drwxr-xr-x   5 jde-arau  2022_lisboa   170 Jan 13 04:23 Desktop
+drwxr-xr-x   2 jde-arau  2022_lisboa    68 Jan 10 09:49 Documents
+drwx------   6 jde-arau  2022_lisboa   204 Jan 13 11:31 Downloads
+drwxr-xr-x@ 39 jde-arau  2022_lisboa  1326 Jan 13 11:33 Library
+drwxr-xr-x   3 jde-arau  2022_lisboa   102 Jan 11 09:12 Movies
+-rw-r--r--   1 jde-arau  2022_lisboa    21 Jan 13 00:27 ft_magic
+lrwxr-xr-x   1 jde-arau  2022_lisboa    18 Jan 10 09:49 goinfre -> /goinfre/jde-arau/
+-rw-r--r--   1 jde-arau  2022_lisboa     0 Jan 11 13:36 id_rsa_pub
+-rw-r--r--   1 jde-arau  2022_lisboa     0 Jan 11 13:38 jde-arau@c1r4s3.42lisboa.com
+drwxr-xr-x   3 jde-arau  2022_lisboa   102 Jan 10 12:27 neto
+drwxr-xr-x  13 jde-arau  2022_lisboa   442 Jan 13 04:36 shell00
+-rw-r--r--   1 jde-arau  2022_lisboa     8 Jan 13 00:26 test
+sh-3.2$ cd C
+sh-3.2$ ls -l
+total 112
+-rwxr-xr-x  1 jde-arau  2022_lisboa  49424 Jan 13 12:13 a.out
+#include <stdio.h>
+-rw-r--r--  1 jde-arau  2022_lisboa     60 Jan 13 12:13 main.c
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+^[[Ash-3./a.out
+hello world
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+main.c:5:33: error: use of undeclared identifier 'hello'; did you mean 'ftello'?
+        printf("hello world\n");printf(hello pouet\n");
+                                       ^~~~~
+                                       ftello
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/stdio.h:328:8: note: 'ftello' declared here
+off_t    ftello(FILE * __stream);
+         ^
+main.c:5:46: warning: missing terminating '"' character [-Winvalid-pp-token]
+        printf("hello world\n");printf(hello pouet\n");
+                                                    ^
+1 warning and 1 error generated.
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+sh-3.2$ ./a.out
+hello world
+hello pouet
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+main.c:5:25: error: expected ';' after expression
+        printf("hello world\n") printf("hello pouet\n");
+                               ^
+                               ;
+1 error generated.
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+sh-3.2$ ./a.out
+hello world
+hello pouet
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+sh-3.2$ ./a.out
+hello world
+hello pouet
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+main.c:8:10: error: expected parameter declarator
+}       printf("hello pouet\n");
+               ^
+main.c:8:10: error: expected ')'
+main.c:8:9: note: to match this '('
+}       printf("hello pouet\n");
+              ^
+main.c:8:3: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}       printf("hello pouet\n");
+        ^
+main.c:8:3: error: conflicting types for 'printf'
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/stdio.h:170:6: note: previous declaration is here
+int      printf(const char * __restrict, ...) __printflike(1, 2);
+         ^
+1 warning and 3 errors generated.
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+main.c:8:10: error: expected parameter declarator
+}       printf("hello pouet\n");
+               ^
+main.c:8:10: error: expected ')'
+main.c:8:9: note: to match this '('
+}       printf("hello pouet\n");
+              ^
+main.c:8:3: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}       printf("hello pouet\n");
+        ^
+main.c:8:3: error: conflicting types for 'printf'
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/stdio.h:170:6: note: previous declaration is here
+int      printf(const char * __restrict, ...) __printflike(1, 2);
+         ^
+1 warning and 3 errors generated.
+sh-3.2$ vi main.c
+sh-3.2$ gcc main.c
+sh-3.2$ ./a.out
+hello world
+hello pouet
+hello pouet
+hello pouet
+sh-3.2$ 1.2 Hello, world!
+sh: 1.2: command not found
+sh-3.2$ O comando #include <stdio. h> que aparece no início do código inclui o arquivo stdio. ...
+sh: O: command not found
+sh-3.2$ O main() indica onde começa a execução do programa. ...
+sh: syntax error near unexpected token `('
+sh-3.2$ A instrução printf("hello, world!\ ...
+sh: A: command not found
+sh-3.2$ Quando o código estiver com erros de sintaxe, a compilação feita pela linha de comando. ...
+sh: Quando: command not found
+sh-3.2$ O nome a.out para o executável é o padrão.pwd
+sh: O: command not found
+sh-3.2$ pwd
+/Users/jde-arau/C
+sh-3.2$ 
